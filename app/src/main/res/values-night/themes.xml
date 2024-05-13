@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChatApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--Primary-->
+        <item name="colorPrimary">@color/my_primary</item>
+        <!--Secondary-->
+        <item name="colorSecondary">@color/my_secondary</item>
+        <item name="android:windowBackground">@color/off_white</item>
+    </style>
+</resources>
