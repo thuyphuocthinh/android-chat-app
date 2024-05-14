@@ -55,6 +55,7 @@ public class SearchUserActivity extends AppCompatActivity {
                 .whereGreaterThanOrEqualTo("username", searchTerm)
                 .whereLessThanOrEqualTo("username", searchTerm + "\uf8ff");
 
+
         FirestoreRecyclerOptions<UserModel> options = new FirestoreRecyclerOptions.Builder<UserModel>()
                 .setQuery(query, UserModel.class).build();
 
